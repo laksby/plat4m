@@ -1,7 +1,8 @@
 import { FC } from 'react';
+import { PageLayout } from '../components';
 
 export const IndexPage: FC = () => {
-  return <main className="tw-p-4 tw-min-h-screen">Home Page</main>;
+  return <PageLayout noNavbar>Home Page</PageLayout>;
 };
 
 export default IndexPage;
