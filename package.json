@@ -1,7 +1,7 @@
 {
-  "name": "sandbox",
+  "name": "plat4m",
   "version": "1.0.0",
-  "description": "Sandbox project template for various purposes",
+  "description": "Personal extensible lightweight application/utility platform",
   "private": true,
   "scripts": {
     "develop": "gatsby develop",
