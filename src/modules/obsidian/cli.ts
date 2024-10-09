@@ -38,14 +38,24 @@ async function run() {
 
   printHeader(0, 'Game Design');
 
-  printHeader(1, 'Game Mechanics', gameDesign.mechanics.length);
-  gameDesign.mechanics.forEach(mechanics => {
-    print(2, `${mechanics.id}`);
+  printHeader(1, 'Core', gameDesign.coreElements.length);
+  gameDesign.coreElements.forEach(element => {
+    print(2, `${element.id}`);
   });
 
-  printHeader(1, 'Game Objects', gameDesign.objects.length);
-  gameDesign.objects.forEach(object => {
-    print(2, `${object.id}`);
+  printHeader(1, 'UI', gameDesign.uiElements.length);
+  gameDesign.uiElements.forEach(element => {
+    print(2, `${element.id}`);
+  });
+
+  printHeader(1, 'World', gameDesign.worldElements.length);
+  gameDesign.worldElements.forEach(element => {
+    print(2, `${element.id}`);
+  });
+
+  printHeader(1, 'Index', gameDesign.indexElements.length);
+  gameDesign.indexElements.forEach(element => {
+    print(2, `${element.id}`);
   });
 }
 

@@ -1,7 +1,8 @@
-import { GameMechanics } from './GameMechanics';
-import { GameObject } from './GameObject';
+import { GameElement } from './GameElement';
 
 export interface GameDesign {
-  mechanics: GameMechanics[];
-  objects: GameObject[];
+  coreElements: GameElement[];
+  uiElements: GameElement[];
+  worldElements: GameElement[];
+  indexElements: GameElement[];
 }
